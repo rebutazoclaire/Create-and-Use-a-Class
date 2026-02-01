@@ -1,0 +1,41 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package student;
+import java.util.Scanner;
+/**
+ *
+ * @author User
+ */
+public class Student {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        
+        String Student;
+        
+        Student a = new Student ();
+        a.name= "Trisha Vergara";
+        a.age = 20;
+        a.course = "BSIT";
+        a.displayInfo();
+        
+        Student b = new Student();
+        b.name = "Anthony Vargas";
+        b.age = 19;
+        b.course = "BSCS";
+        b.displayInfo();
+        
+ }
+        String name;
+        int age;
+        String course;
+        void displayInfo() {
+            System.out.println("Enter Student's name: " + name);
+            System.out.println("Enter Student's age: " + age);
+            System.out.println("Enter Student's course: " + course);
+            System.out.println();
